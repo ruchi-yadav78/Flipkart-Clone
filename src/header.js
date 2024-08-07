@@ -34,9 +34,9 @@ function Headpart(){
        
         <div class="hamburgur-menu"><span><i class="fa-brands fa-slack"></i></span><Link to="/aboutallfile/abouts-com">About Us</Link></div> 
         <div class="hamburgur-menu"><span><i class="fa-brands fa-slack"></i></span><Link to="/Sunstainblity/sunst">Sustainabilty</Link></div>
-        <div class="hamburgur-menu"><span><i class="fa-brands fa-slack"></i></span><Link to="datajsx/mapping2">Mobile</Link></div>
-        <div class="hamburgur-menu"><span><i class="fa-brands fa-slack"></i></span><Link to="datajsx/mapping">Fashion</Link></div>
-        <div class="hamburgur-menu"><span><i class="fa-brands fa-slack"></i></span><Link to="datajsx/mapping3">Electronics</Link></div>
+        <div class="hamburgur-menu"><span><i class="fa-brands fa-slack"></i></span><Link to="/datajsx/mapping2">Mobile</Link></div>
+        <div class="hamburgur-menu"><span><i class="fa-brands fa-slack"></i></span><Link to="/datajsx/mapping">Fashion</Link></div>
+        <div class="hamburgur-menu"><span><i class="fa-brands fa-slack"></i></span><Link to="/datajsx/mapping3">Electronics</Link></div>
        </div>
         
         </div>
@@ -56,11 +56,11 @@ function Headpart(){
                 <div class="cont2img"><img src={require('./image/product1.png')}></img></div>
                 <div class="cont2tag">Grocery</div>
                 </div>
-                <div class="cont2main"><Link to="datajsx/mapping2">
+                <div class="cont2main"><Link to="/datajsx/mapping2">
                 <div class="cont2img"><img src={require('./image/product2.png')}></img></div>
                 <div class="cont2tag">Mobile</div></Link>
                 </div>
-                <div class="cont2main"><Link to="datajsx/mapping">
+                <div class="cont2main"><Link to="/datajsx/mapping">
                 <div class="cont2img"><img src={require('./image/product3.jpg')}></img></div>
                 <div class="cont2tag">Fashion <i class="fa-solid fa-angle-down"></i> 
                 </div></Link>
@@ -249,7 +249,7 @@ function Headpart(){
                     </div>
                 </div>
                 </div>
-                <div class="cont2main"><Link to="datajsx/mapping3">
+                <div class="cont2main"><Link to="/datajsx/mapping3">
                 <div class="cont2img"><img src={require('./image/product4.jpg')}></img></div>
                 <div class="cont2tag">Electronics<i class="fa-solid fa-angle-down"></i></div>
                 

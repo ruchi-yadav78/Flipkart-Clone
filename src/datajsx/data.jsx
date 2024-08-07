@@ -4,7 +4,9 @@ export let data=[
         "name":"LaFile",
         "age":"price - Rs 839",
         "gender":"ADDTOCART",
-        "image": "../imgs/bags1.jpg"
+        "image":  "../imgs/bags1.jpg"
+       
+      
     },
     {
         "name":"LINO PERROS",

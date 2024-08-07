@@ -21,7 +21,10 @@ import Maps3 from './datajsx/mapping3';
  
 const router = createBrowserRouter([
   {
-    path: "/",
+    basename:"/Flipkart-Clone"
+  },
+  {
+    path: "/Flipkart-Clone",
     element: <Homes />
   },
   {

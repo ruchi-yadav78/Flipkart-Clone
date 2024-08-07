@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#carouselExampleCaptions1{
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+    margin: 50px 0;
+}
+.leftbtn{
+    width: 3%;
+}
+.rightbtn{
+    width: 3%; 
+}
+.lefticon,.righticon{
+    height: 5rem;
+    background-color: blueviolet;
+}
+.carousel-indicators [data-bs-target] {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
+.toptag{
+    margin-top: 20px;
+    text-decoration: underline;
+    font-weight: 600;
+    font-family: math;
+    margin-left: 30px;
+}
+.webslide1{
+    height: 450px;
+    width: 100%;
+}
+.webslide1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+.bby, .ryb {
+    height: 4rem !important;
+    background-color: magenta;
+}
+@media only screen and (min-width: 320px) and (max-width: 575px){
+    .webslide1 {
+        height: 200px;
+    }
+    #carouselExampleCaptions1{
+        margin: 30px 0;
+    }
+    .lefticon, .righticon {
+        height: 3rem !important;
+        background-color: white;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px){
+    .webslide1{
+        height: 312px;
+    }
+}

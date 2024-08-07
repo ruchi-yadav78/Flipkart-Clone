@@ -1,0 +1,524 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menubarcont.active{
+  display: none;
+  
+}
+.menubarcont{
+    display: block;
+    position: absolute;
+    z-index: 3;
+    height: 235px;
+    width: 191px;
+    top: 69px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 2px solid #2a2b2d;
+    right: 0;
+    padding: 23px;
+    color: black;
+    background-color: gainsboro;
+}
+.hamburgur-menu {
+    display: flex;
+    column-gap: 13px;
+    margin-top: 6px;
+}
+.main {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    color: white;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: darkmagenta;
+}
+.flipimg img{
+    height: 55px;
+    width: 154px;
+}
+.search input{
+  width: 253px;
+  font-size: 15px;
+  height: 30px;
+  border: transparent;
+  background-color: white;
+  border-radius: 5px;
+}
+.search {
+    width: 436px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    height: 34px;
+}
+.search i{
+    color: rgb(134, 133, 133);
+    margin-left: 20px;
+}
+.hamburgur{
+   display: none;
+}
+.logon {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    justify-content: center;
+    column-gap: 10px;
+    height: 100%;
+    position: relative;
+}
+.logon:hover{
+    background-color: blue;
+    height: 40px;
+    border-radius: 5px;
+}
+.loginpages{
+    height: 269px;
+    width: 239px;
+    z-index: 3;
+    background-color: white;
+    display: none;
+    padding: 15px 22px;
+    color: rgb(116, 114, 114);
+    font-weight: 600;
+    line-height: 34px;
+    font-family: math;
+    box-shadow: 1px -1px 13px gray;
+    position: absolute;
+}
+.logon:hover .loginpages{
+    display: block;
+    position: absolute;
+    top: 52px;
+}
+.custom{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid gray;
+    padding: 8px 0;
+}
+.cart {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+.sellr {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+.threedot {
+    height: 100%;
+    width: 20px;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+.theedotpages{
+    z-index: 3;
+    width: 193px;
+    position: absolute;
+    top: 66px;
+    display: none;
+    font-family: math;
+    font-weight: 600;
+    left: -138px;
+    line-height: 41px;
+    color: rgb(110, 109, 109);
+    padding: 15px;
+    box-shadow: 1px 1px 13px gray;
+    background-color: white;
+}
+.threedot:hover .theedotpages{
+    display: block;
+}
+.cont2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./image/bgimg1.jpg');
+    padding: 20px 0;
+}
+.cont2 img{
+    height: 100%;
+    width: 100%;
+}
+.cont2section{
+    margin: 0;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    column-gap: 23px;
+}
+.cont2main{
+    background-color: #0000005c;
+    height: 207px;
+    align-items: center;
+    border-radius: 30px;
+    display: flex;
+    border: 5px solid blueviolet;
+    justify-content: center;
+    flex-direction: column;
+    width: 167px;
+}
+.cont2img img{
+    height: 82px;
+    width: 82px;
+}
+.cont2tag {
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    font-family: math;
+    position: relative;
+}
+.cont2main:hover .maindd{
+    display: block;
+}
+.maindd{
+    left: 231px;
+    top: 208px;
+    display: none;
+    position: absolute;
+}
+.maindd1{
+    display: flex; 
+}
+.dropdown1{
+    height: 464px;
+    width: 233px;
+    box-shadow: 1px 1px 13px gray;
+    background-color: white;
+    z-index: 3;
+    padding: 15px;
+    line-height: 37px;
+    text-align: left;
+    font-size: 15px;
+    font-family: math;
+}
+.fashionicon {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    background-color: cornflowerblue;
+}
+/* fashoins dropdown start here */
+.dropdownfa1 {
+    left: 233px;
+    bottom: 0;
+    position: absolute;
+}
+.dropdownfa1{
+    display: none;
+}
+.fashionicon:hover .dropdownfa1{
+    display: block;
+}
+.men-bottom-wear:hover .dropdownfa1{
+    display: block;
+}
+.men-bottom-wear:hover {
+  background-color: #413b473d;
+}
+.ethnicdrop2 {
+    left: 233px;
+    bottom: 0;
+    position: absolute;
+}
+.ethnicdrop2{
+    display: none;
+}
+.fashionicon:hover .ethnicdrop2{
+    display: block;
+}
+.women-ethnic:hover .ethnicdrop2{
+    display: block;
+}
+.women-ethnic:hover {
+    background-color: #413b473d;
+  }
+.westerndrop3 {
+    left: 233px;
+    bottom: 0;
+    position: absolute;
+}
+.westerndrop3{
+    display: none;
+}
+.fashionicon:hover .westerndrop3{
+    display: block;
+}
+.womenwestern:hover .westerndrop3{
+    display: block;
+}
+.womenwestern:hover {
+    background-color: #413b473d;
+  }  
+.menfootweardrop4 {
+    left: 233px;
+    bottom: 0;
+    position: absolute;
+}
+.menfootweardrop4{
+    display: none;
+}
+.fashionicon:hover .menfootweardrop4{
+    display: block;
+}
+.menfootwear:hover .menfootweardrop4{
+    display: block;
+}
+.menfootwear:hover {
+    background-color: #413b473d;
+  }  
+.womendop5 {
+    left: 233px;
+    bottom: 0;
+    position: absolute;
+}
+.womendop5{
+    display: none;
+}
+.fashionicon:hover .womendop5{
+    display: block;
+}
+.womenfotwear:hover .womendop5{
+    display: block;
+}
+.womenfotwear:hover {
+    background-color: #413b473d;
+  }  
+.kidsdrop6 {
+    left: 233px;
+    bottom: 0;
+    position: absolute;
+}
+.kidsdrop6{
+    display: none;
+}
+.fashionicon:hover .kidsdrop6{
+    display: block;
+}
+.kids:hover .kidsdrop6{
+    display: block;
+}
+.kids:hover {
+    background-color: #413b473d;
+  }    
+.essentialdrop {
+    left: 233px;
+    bottom: 0;
+    position: absolute;
+}
+.essentialdrop{
+    display: none;
+}
+.fashionicon:hover .essentialdrop{
+    display: block;
+}
+.essential:hover .essentialdrop{
+    display: block;
+}
+.essential:hover {
+    background-color: #413b473d;
+  }      
+.winterdrop {
+    left: 233px;
+    bottom: 0;
+    position: absolute;
+}
+.winterdrop{
+    display: none;
+}
+.fashionicon:hover .winterdrop{
+    display: block;
+}
+.winter:hover .winterdrop{
+    display: block;
+}
+.winter:hover {
+    background-color: #413b473d;
+  }   
+.electodropmain{
+    display: flex;
+    position: relative;
+    top: 50px;
+    display: none;
+}  
+.cont2main:hover .electodropmain{
+  display: block;
+}  
+.electodrop1{
+    height: 300px;
+    width: 230px;
+    position: absolute;
+    padding: 20px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    background-color: white;
+    z-index: 3;
+    box-shadow: 1px 1px 13px gray;
+}
+.electotag{
+  height: 35px;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+.electotag1{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    background-color: cornflowerblue;
+  }
+.electotag:hover{
+    background-color: rgb(195, 193, 211)
+}
+.electodrop2{
+    height: 300px;
+    width: 230px;
+    position: absolute;
+    padding: 20px;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    background-color: white;
+    box-shadow: 1px 1px 13px gray;
+}
+.twowheeles-hover{
+  margin-left: 195px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px){
+.cont2{
+    display: none;
+ } 
+ .hamburgur {
+    display: block;
+    font-size: 23px;
+    color: white !important;
+}
+.main{
+    justify-content: space-around;
+}
+.cart,.sellr,.threedot,.search{
+    display: none;
+}
+.cont2main{
+    height: 149px;
+    width: 128px;
+}
+.imgslide1 img{
+    height: 185px;
+    object-fit: cover;
+    width: 100%;
+}
+.lefticon, .righticon{
+    height: 4rem !important;
+}
+}
+@media only screen and (min-width: 576px) and (max-width: 768px){
+    .hamburgur{
+        display: block;
+    }
+    .flipimg {
+        margin-right: auto;
+    }
+    .cont2{
+        overflow-x: scroll;
+        flex-direction: row;
+    }
+    .cont2section{
+        margin: 0 0;
+        width: auto;
+    }
+    .main{
+        padding: 0 30px;
+        column-gap: 20px;
+        justify-content: space-around;
+    }
+    .cart,.sellr,.threedot,.search{
+        display: none;
+    }
+    .cont2main {
+        height: 192px;
+        width: 150px;
+    }
+    .imgslide1 img{
+        height: 185px;
+        object-fit: cover;
+        width: 100%;
+    }
+    .lefticon, .righticon{
+        height: 4rem !important;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .main {
+        column-gap: 24px;
+        padding: 0 30px;
+    }
+    .flipimg {
+        margin-right: auto;
+    }
+    .sellr,.threedot{
+        display: none;
+    }
+    .hamburgur{
+        display: none;
+    }
+    .cont2{
+        overflow-x: scroll;
+        flex-direction: row;
+    }
+    .cont2section{
+        width: auto;
+    }
+    .search{
+        display: none;
+    }
+    .imgslide1 img{
+        height: 303px;
+        object-fit: cover;
+    }
+    .sec4img1, .sec4img2, .sec4img3{
+        height: 180px;
+    }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+    .cont2{
+        overflow-x: scroll;
+        flex-direction: row;
+    }
+    .cont2section{
+        margin: 0;
+        width: auto;
+    }
+    .imgslide1 img{
+       height: 300px;
+    }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1350px){
+    .cont2{
+        overflow-x: scroll;
+        flex-direction: row;
+    }
+    .cont2section{
+        width: auto;
+    }
+}

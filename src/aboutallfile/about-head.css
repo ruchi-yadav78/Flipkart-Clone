@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.about-cont1 {
+    height: 75px;
+    width: 100%;
+    background-color: #e7e701;
+    display: flex;
+    align-items: center;
+}
+.aboutmain{
+    color: blueviolet;
+}
+.aboutheadpart1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.aboutheadimg{
+    height: 72px;
+    width: 167px;
+    margin-left: 40px;
+}
+.aboutheadimg img{
+    height: 100%;
+    width: 100%;
+}
+.aboutheadtag{
+    display: flex;
+    column-gap: 41px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+    margin-right: 64px;
+    align-items: center;
+}
+.absusthd a {
+    color: black;
+    text-decoration: none;
+}

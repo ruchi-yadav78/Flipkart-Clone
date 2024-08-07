@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.footerpart1{
+    display: flex;
+    padding: 40px 50px;
+    column-gap: 57px;
+    border-bottom: 1px solid white;
+    justify-content: center;
+}
+.footerpart2{
+    display: flex; 
+    padding: 0 50px;
+}
+footer{
+    background-color: cornflowerblue;
+    height: 100%;
+    width: 100%;
+}
+.footcont1{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 13px;
+    text-align: justify;
+    row-gap: 5px;
+}
+.foottag1 {
+    font-size: 17px;
+    color: greenyellow;
+    font-family: math;
+}
+.foottag8 span{
+    color: red;
+}
+.fcont2sec1{
+    display: flex;
+    column-gap: 40px;
+    align-content: center;
+    color: white;
+    margin: 20px 0;
+}
+.fcont2sec1 i{
+    color: brown;
+}
+.paymethod{
+    height: 41px;
+    width: 486px;
+}
+.fcont2sec2 {
+    display: flex;
+    align-items: center;
+}
+.paymethod img{
+ height: 100%;
+ width: 100%;
+}
+.foottag3 a{
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px){
+    .footerpart1{
+        row-gap: 29px;
+        flex-direction: column;
+    }
+    .footerpart2{
+        flex-direction: column;
+    }
+    .fcont2sec1{
+        flex-direction: column;
+        row-gap: 11px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px){
+    .footerpart1{
+        row-gap: 29px;
+       flex-wrap: wrap;
+    }
+    .footcont1{
+        width: 200px;
+    }
+    .footerpart2{
+        flex-direction: column;
+    }
+    .fcont2sec1{
+        flex-direction: column;
+        row-gap: 11px;
+    }
+    .paymethod img {
+        margin-left: -25px;
+    }
+
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .footerpart1{
+        row-gap: 30px;
+        flex-wrap: wrap;
+    }
+    .footerpart2{
+        flex-direction: column;
+    }
+    .fcont2sec1{
+        column-gap: 28px;
+        row-gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .fcont2sec2{
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+    .footerpart1{
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+    .footerpart2{
+        flex-wrap: wrap;
+    }
+    .paymethod img{
+        margin-left: -31px;
+    }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1350px){
+    .fcont2sec1,.fcont2sec2{
+        justify-content: center;
+    }
+    .footerpart2{
+        flex-direction: column;
+    }
+}

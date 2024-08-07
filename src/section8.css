@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.slick-next {
+    background-color: maroon !important;
+    right: 0 !important;
+    top: 44% !important;
+    width: 27px !important;
+    height: 68px !important;
+    border-radius: 6px !important;
+ }
+ .slick-prev {
+     background-color: maroon !important;
+     left: 0 !important;
+     top: 44% !important;
+     z-index: 3;
+     width: 27px !important;
+     height: 68px !important;
+     border-radius: 6px !important;
+ }
+ .watch{
+     padding: 20px;
+ }
+ .watch img{
+     height: 217px;
+     width: 204px;
+ }
+ .slick-slider{
+     width: 94%;
+     margin-right: auto;
+     margin-left: auto;
+ }
+ .prod1 {
+     margin-left: 34px;
+     margin-top: 18px;
+     width: 248px !important;
+ }
+ .product1{
+    text-align: center; 
+ }
+ .prodname{
+     font-size: 20px;
+     font-weight: 600;
+     color: maroon;
+     font-family: math;
+ }
+ .prodprice{
+     font-size: 24px;
+     font-weight: 600;
+     color: black;
+     font-family: math;
+ }
+ .cont8part2{
+    display: flex;
+    margin: 75px 29px;
+    justify-content: space-between;
+ }
+ .cont8prod1img{
+    height: 184px;
+    overflow: hidden;
+    width: 184px;
+ }
+ .cont8prod1img img{
+    height: 100%;
+    width: 100%;
+ }
+ .cont8prod1img img:hover{
+    height: 193px;
+    width: 190px; 
+ }
+ .sec8moreitems{
+    column-gap: 20px;
+    display: flex;
+    margin-top: 12px;
+ }
+.cont8prod1{
+    width: 222px;
+    padding: 18px;
+    text-align: center;
+    border: 1px solid black;
+}
+.cont8prodtag {
+    font-size: 31px;
+    text-decoration: underline;
+    font-family: math;
+    font-weight: 600;
+}
+.cont8prod1tag1 {
+    font-size: 20px;
+    font-family: fantasy;
+    color: rgb(187, 76, 76);
+}
+.cont8prod1tag2 {
+    font-size: 26px;
+    color: black;
+    font-family: monospace;
+}
+.sidebgimg{
+    height: 651px;
+    width: 767px
+}
+.sidebgimg img{
+    height: 100%;
+    width: 100%;
+  }
+.sec9{
+    margin-bottom: 40px;
+}  
+@media only screen and (min-width: 320px) and (max-width: 575px){
+    .slick-slider{
+       text-align: center;
+    }
+    .prod1{
+       margin-left: 0 !important;
+       width: 218px !important;
+    }
+    .cont8part2{
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 20px;
+    }
+    .sidebgimg {
+        height: 377px;
+        width: 100%;
+    }
+    .sec8moreitems{
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 11px;
+    }
+    .cont8prod1{
+        width: 195px;
+    }
+    .cont8prod1img{
+        height: 162px;
+        width: 157px;
+    }
+   }
+
+   @media only screen and (min-width: 576px) and (max-width: 768px){
+    .slick-slider{
+       text-align: center;
+    }
+    .prod1{
+       margin-left: 0 !important;
+       width: 218px !important;
+    }
+    .cont8part2{
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 20px;
+    }
+    .sidebgimg {
+        height: 377px;
+        width: 100%;
+    }
+    .sec8moreitems{
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 11px;
+    }
+    .cont8prod1{
+        width: 195px;
+    }
+    .cont8prod1img{
+        height: 162px;
+        width: 157px;
+    }
+   }
+
+   @media only screen and (min-width: 769px) and (max-width: 1024px){
+    .cont8prod1{
+        width: 183px;
+    }
+    .cont8prod1img{
+        height: 124px;
+        width: 144px;
+    }
+    .cont8prod1tag2{
+        font-size: 19px;
+    }
+    .cont8part2{
+        column-gap: 10px;
+    }
+    .sidebgimg{
+        height: 454px;
+        margin-top: 58px;
+        width: 100%;
+    }
+
+    .sidebgimg img {
+        object-fit: cover;
+    }
+   }
+   @media only screen and (min-width: 1025px) and (max-width: 1200px){
+    .cont8part2{
+        column-gap: 20px;
+    }
+    .sidebgimg{
+        width: 100%;
+    }
+    .sidebgimg img{
+        object-fit: cover;
+    }
+   }
+   @media only screen and (min-width: 1201px) and (max-width: 1350px){
+    .cont8part2{
+        column-gap: 25px;
+    }
+    .sidebgimg{
+        width: 100%;
+    }
+    .sidebgimg img{
+        object-fit: cover;
+    }
+   }

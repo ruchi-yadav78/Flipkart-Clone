@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.vedio iframe{
+    width: 100%;
+    height: 590px;
+}
+/* hamburgur css start here */
+.menubarcont {
+    display: block;
+    position: absolute;
+    z-index: 4;
+    height: 235px;
+    width: 100%;
+    top: 69px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 2px solid #2a2b2d;
+    left: 0;
+    padding: 23px;
+    color: black;
+    background-color: gainsboro;
+}
+.hamburgur-menu {
+    display: flex;
+    justify-content: flex-start;
+    width: 127px;
+    margin: 7px auto;
+    column-gap: 15px;
+}
+/* hamburgur css end here */
+.about-cont1 {
+    height: 75px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+}
+.aboutmain{
+    color: blueviolet;
+}
+.aboutheadpart1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.aboutheadimg{
+    height: 72px;
+    width: 167px;
+    margin-left: 40px;
+}
+.aboutheadimg img{
+    height: 100%;
+    width: 100%;
+}
+.aboutheadtag{
+    display: flex;
+    column-gap: 41px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+    margin-right: 64px;
+    align-items: center;
+}
+.aboutcont3{
+    margin: 70px 0;
+    display: flex;
+}
+.inovation{
+    display: flex;
+    color: black;
+    justify-content: space-around;
+    width: 100%;
+}
+.inovainfo1 {
+    font-size: 25px;
+    color: crimson;
+    font-weight: 500;
+}
+.inovainfo2 {
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.inovainfo3 {
+    font-size: 20px;
+    color: gray;
+    margin-top: 12px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.inovainfo {
+    width: 525px;
+}
+.inovainfo4 {
+    margin-top: 43px;
+}
+.inovainfo4 button {
+    width: 190px;
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+    border-radius: 6px;
+    height: 55px;
+}
+@media only screen and (min-width: 320px) and (max-width: 575px){
+    .vedio iframe{
+        height: 375px;
+    }
+    .aboutheadpart1 {
+        justify-content: space-between;
+        padding: 20px;
+        align-items: center;
+    }
+    .aboutheadimg{
+        margin-left: 0;
+        width: 150px;
+    }
+    .hamburgur {
+        display: block;
+        font-size: 23px;
+        color: black;
+    }
+    .aboutheadtag{
+        display: none;
+    }
+    .inovaimg{
+        height: 100;
+        width: 100%;
+    }
+    .inovaimg img{
+        height: 254px;
+        width: 100%;
+    }
+    .inovation{
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .inovainfo {
+        width: 100%;
+    }
+    .aboutcont3{
+        margin: 47px 33px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px){
+    .vedio iframe{
+        height: 375px;
+    }
+    .aboutheadpart1 {
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+    }
+    .hamburgur {
+        display: block;
+        font-size: 24px;
+    }
+    .aboutheadimg{
+        margin-left: 0;
+    }
+    .aboutheadtag{
+        display: none;
+    }
+    .inovaimg{
+        height: 100;
+        width: 100%;
+    }
+    .inovaimg img{
+        height: 250px;
+        width: 100%;
+    }
+    .inovation{
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .inovainfo {
+        width: 100%;
+    }
+    .aboutcont3 {
+        margin: 70px 60px;
+    }
+    .abcont4sec1{
+        padding: 22px 60px;
+    }
+    .abcont7img{
+        padding: 0 60px;
+    }
+    .compliance {
+        padding: 20px 60px;
+    }
+    .abcont5{
+        padding: 30px 60px;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .abstorieshd {
+        display: none;
+    }
+    .aboutheadtag{
+        column-gap: 23px;
+        font-size: 17px;
+    }
+    .inovation{
+        margin: 0 23px;
+        column-gap: 15px;
+        justify-content: center;
+    }
+    .inovaimg{
+        height: 350px;
+        width: 100%;
+    }
+    .inovaimg img{
+        height: 100%;
+        width: 100%;
+    }
+    .inovainfo {
+        width: 100%;
+    }
+    .inovainfo2{
+        font-size: 29px;
+    }
+    .inovainfo3{
+        font-size: 16px;
+    }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+    .inovation {
+        padding: 0 30px;
+        column-gap: 20px;
+    }
+    .inovaimg img {
+        height: 408px;
+        width: 100%;
+    }
+}

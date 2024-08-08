@@ -38,12 +38,12 @@ const router = createBrowserRouter([
   },
   {
     path: "/datajsx/mapping2",
-    element: <Maps2/>
+    element: <Maps2 />
   },
   {
     path: "/datajsx/mapping3",
-    element: <Maps3/>
-  },
+    element: <Maps3 />
+  }
 ]);
 
 

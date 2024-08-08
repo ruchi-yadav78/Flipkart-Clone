@@ -34,13 +34,13 @@ function Headpart(){
        
         <div class="hamburgur-menu"><span><i class="fa-brands fa-slack"></i></span><Link to="/aboutallfile/abouts-com">About Us</Link></div> 
         <div class="hamburgur-menu"><span><i class="fa-brands fa-slack"></i></span><Link to="/Sunstainblity/sunst">Sustainabilty</Link></div>
-        <div class="hamburgur-menu"><span><i class="fa-brands fa-slack"></i></span><Link to="/datajsx/mapping2">Mobile</Link></div>
+        {/* <div class="hamburgur-menu"><span><i class="fa-brands fa-slack"></i></span><Link to="/datajsx/mapping2">Mobile</Link></div>
         <div class="hamburgur-menu"><span><i class="fa-brands fa-slack"></i></span><Link to="/datajsx/mapping">Fashion</Link></div>
-        <div class="hamburgur-menu"><span><i class="fa-brands fa-slack"></i></span><Link to="/datajsx/mapping3">Electronics</Link></div>
+        <div class="hamburgur-menu"><span><i class="fa-brands fa-slack"></i></span><Link to="/datajsx/mapping3">Electronics</Link></div> */}
        </div>
         
         </div>
-       <div class="sellr"><i class="fa-solid fa-shop"></i>Become a seller</div>
+       <div class="sellr"><i class="fa-solid fa-shop"></i><Link to="/aboutallfile/abouts-com">About Us</Link></div>
        <div class="threedot"><i class="fa-solid fa-ellipsis-vertical"></i>
        <div class="theedotpages">
         <div class="prefrance"><i class="fa-solid fa-bell"></i> Notification Prefrance</div>

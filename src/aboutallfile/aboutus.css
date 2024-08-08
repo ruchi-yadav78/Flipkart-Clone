@@ -6,12 +6,16 @@
     width: 100%;
     height: 590px;
 }
+.abtechhd a,.abculturehd a {
+    text-decoration: none !important;
+    color: black;
+}
 /* hamburgur css start here */
 .menubarcont {
     display: block;
     position: absolute;
     z-index: 4;
-    height: 235px;
+    height: 200px;
     width: 100%;
     top: 69px;
     font-size: 17px;
@@ -98,7 +102,7 @@
 }
 .inovainfo4 button {
     width: 190px;
-    border: 1px solid green;
+    border: 1px solid rgb(6, 7, 6);
     background-color: green;
     color: white;
     border-radius: 6px;

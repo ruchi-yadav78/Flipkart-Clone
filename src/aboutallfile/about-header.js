@@ -12,10 +12,10 @@ import { useState } from 'react';
                     <div class="aboutheadimg"><img src={require('../image/flipkart3.png')}></img></div>
                     <div class="aboutheadtag">
                         <div class="ababouthd">About</div>
-                        <div class="abethicshd">Ethics</div>
-                        <div class="abculturehd">Culture</div>
-                        <div class="abtechhd">Technology</div>
                         <div class="absusthd"><Link to="/Sunstainblity/sunst">Sustainabilty</Link></div>
+                        <div class="abculturehd"><Link to="/datajsx/mapping2">Mobile</Link></div>
+                        <div class="abtechhd"><Link to="/datajsx/mapping">Fashion</Link></div>
+                        <div class="absusthd"><Link to="/datajsx/mapping3">Electronics</Link></div>
                         <div class="abstorieshd">Stories</div>
                     </div>
                     <div class="hamburgur">
